@@ -1,0 +1,27 @@
+MCL Normalmap guide (Instructions based on CS5)
+ 
+1. Hide all layers except base and details
+ 
+2. Greyscale image (Image->Adjustments->Black & White)
+ 
+3. Flatten image (right click on layers->Flatten Image)
+ 
+4. Make 3 copies of this, ensure they are all flattened
+ 
+5. Filter->Nvidia Tools->NormalMapFilter
+ 
+6. Make sure 'Invert y' is selected (should only need to be done once)
+ 
+7. On the 1st image select '9x9' radio button in 'height generation'
+ 
+8. On the 2nd image select '5x5' radio button in 'height generation'
+ 
+9. On the 3rd image select '4 sample' radio button in 'height generation'
+ 
+10. Now copy the 2nd and 3rd images onto the 1st
+ 
+11. Set each layer to overlay, with the finest detail (3rd image 4 sample) as the top layer
+ 
+12. If there are hazard stripes or such that should only be fine detail, copy the fine layer and paste over
+ 
+13. Save as dds using the normal map profile
