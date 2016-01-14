@@ -1,0 +1,31 @@
+MCL Tex2 guide
+ 
+1. Hide all layers except base, detail, AO, dirt if it exists
+ 
+2. Flatten image
+ 
+3. Greyscale (Image->Adjustments->Black & White)
+ 
+4. Delete alpha channel
+ 
+5. Select all in blue channel and delete / fill black
+ 
+6. Select any emitters (lights, lasers, screens)
+ 
+7. Invert selection (everything but emitters selected)
+ 
+8. Delete / fill black everything else on red channel
+ 
+9. Keeping selection from before, reduce brightness and increase contrast on green channel (On CS5 this is -150/+50: need to activate"legacy" mode)
+ 
+10. Invert selection (you should now have the emitters selected) and select any windows
+ 
+11. have green and red channel enabled/selected
+ 
+12. expand selection (selection menu) by 2 px
+ 
+13. feather selection by 3px
+ 
+14. fill selection with light grey (112/112/112 rgb) at 40% opacity (should look light yellow on final image)
+ 
+15. Save using standard texture profile (not normalmap profile)
