@@ -10,7 +10,7 @@ MCL Tex2 guide
  
 5. Select all in blue channel and delete / fill black
  
-6. Select any emitters (lights, lasers, screens)
+6. Select any emitters (lights, lasers, windows, screens)
  
 7. Invert selection (everything but emitters selected)
  
@@ -18,11 +18,11 @@ MCL Tex2 guide
  
 9. Keeping selection from before, reduce brightness and increase contrast on green channel (On CS5 this is -150/+50: need to activate"legacy" mode)
  
-10. Invert selection (you should now have the emitters selected) and select any windows
+10. Invert selection (you should now have the emitters selected)
  
 11. have green and red channel enabled/selected
  
-12. expand selection (selection menu) by 2 px
+12. expand selection (Select>Modify) by 2 px
  
 13. feather selection by 3px
  
